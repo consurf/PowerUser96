@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerUser96</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #1e1e2f, #2c2c3f);
+      color: #f0f0f0;
+    }
+    header {
+      background-color: #202030;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: #00bcd4;
+    }
+    nav a {
+      color: #f0f0f0;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .feature {
+      background-color: #2a2a3a;
+      margin: 1rem;
+      padding: 1.5rem;
+      border-radius: 8px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .feature h3 {
+      color: #00bcd4;
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #202030;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    a {
+      color: #00bcd4;
+    }
+    
+  .download-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #00bcd4;
+    color: #1e1e2f;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+
+  .download-btn:hover {
+    background-color: #00acc1;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PowerUser96</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>A Mod for Windows96.net</h2>
+    <p>PowerUser96 is a personal side project that tweaks Windows96.net with a Windows 10-inspired theme, a few custom tools, and a nostalgic setup wizard—just for fun.</p>
+  </section>
+
+  <section id="features" class="features">
+    <div class="feature">
+      <h3>🎨 Windows 10 Theme</h3>
+      <p>Rounded corners, updated icons, and a cleaner interface give Windows96 a modern twist while keeping the retro charm.</p>
+    </div>
+    <div class="feature">
+      <h3>🧙 Setup Wizard</h3>
+      <p>Drag the mod file into Windows96.net and launch the wizard. It walks you through the install like you're booting up a real OS.</p>
+    </div>
+    <div class="feature">
+      <h3>🧰 Custom Tools</h3>
+      <p>Includes a few utilities I built for fun—like DevEnv (I just had this on my PC. Credits to owner), Easy-to-access system log, extra drives, disk manager, and other little experiments.</p>
+    </div>
+    <div class="feature">
+      <h3>🧪 Built for Fun</h3>
+      <p>This is a hobby project. No big goals—just me messing around with browser tech, IndexedDB, and retro vibes.</p>
+    </div>
+  </section>
+
+  <section id="download" class="hero">
+    <h2>Download & Install</h2>
+    <p>To install PowerUser96, just drag the <strong>PowerUser96.mod</strong> file into <a href="https://windows96.net" target="_blank">Windows96.net</a> and double click on it. The setup wizard will guide you through the rest.</p>
+    <!-- Place this inside your download section -->
+<div style="margin-top: 2rem;">
+  <a href="PowerUser96.mod" download class="download-btn">Download PowerUser96.mod</a>
+</div>
+
+<!-- Add this to your <style> block -->
+</section>
+
+  <section id="about" class="hero">
+    <h2>About This Project</h2>
+    <p>Made by Con as a fun experiment in browser-based OS modding. PowerUser96 is a tribute to retro tech, customization, and the joy of building something weird and cool.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 PowerUser96. All rights reserved. | Built with ❤️ by Con
+  </footer>
+</body>
+</html>
