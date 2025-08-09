@@ -1,4 +1,4 @@
-//!wrt $BSPEC:{"icn":apps/pkgmgr,"cpr":"Copyright (C) PowerUser96 Team 2025.","dsc":"oobe","frn":"Out-of-box experience","aut":"PowerUser96 Team","ver":1,"ssy":"gui"} 
+//!wrt $BSPEC:{"icn":"apps/pkmgr","cpr":"Copyright (C) PowerUser96 Team 2025.","dsc":"PowerUser96 Setup","frn":"PowerUser96 Setup","aut":"PowerUser96 Team","ver":"0.2.3","ssy":"gui"} 
 
 w96.FS.rmdir("/system")
 w96.FS.rmdir("/user")
